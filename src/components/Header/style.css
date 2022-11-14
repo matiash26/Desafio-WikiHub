@@ -1,0 +1,89 @@
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    padding: .8rem 3rem;
+    border-bottom: 1px solid #3f44a677;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #FFFFFF;
+}
+nav img{
+    width: 3.5rem;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+nav h1{
+    font-size: 2.5rem;
+}
+.list button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+.list button:hover{
+    opacity: .8;
+}
+.favorite{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 29.5vw;
+    height: 99vh;
+    background-color: #081735;
+    transition: .5s;
+    overflow-x: hidden;
+}
+.favorite h1{
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.favorite-header{
+    max-height: 5.16rem;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #3f44a677;
+    padding: 0 1rem;
+}
+.favorite-header > svg{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: rgb(252, 0, 0);
+}
+.saveFavorite{
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.close{
+    overflow: hidden;
+    width: 0;
+    transition: .5s;
+}
+@media (max-width: 660px) {
+    nav{
+        padding: 0 1rem;
+    }
+    nav > img{
+        display: none;
+    }
+    .favorite{
+        width: 100%;
+    }
+    .close{
+        width: 0;
+    }
+}

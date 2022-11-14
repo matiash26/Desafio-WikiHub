@@ -1,0 +1,38 @@
+.Repos-Container {
+    width: 100%;
+    margin-top: 3rem;
+    
+    border: 1px solid #091b3f;
+}
+.user-info{
+    height: 6rem;
+    padding: 0 1rem;
+    
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #091b3f;
+}
+.user-info img{
+    width: 5rem;
+    border-radius: 100%;
+}
+.description {
+    color: #3a4ec4;;
+    margin: auto;
+    padding: 0px 3.5rem;
+}
+.description h3{
+    color: #5068F2;
+    text-align: center;
+}
+@media (max-width: 660px) {
+    .description p{
+        font-size: .8rem;
+        text-align: center;
+    }
+}
+@media (max-width: 310px){
+    .description{
+        padding: 0;
+    }
+}

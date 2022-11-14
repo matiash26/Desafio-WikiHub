@@ -1,0 +1,56 @@
+.repos-item{
+    color: white;
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    padding: .3rem .5rem;
+    margin: .5rem;
+}
+.repos-item a {
+    font-size: .8rem;
+    color: #57AAF2;
+}
+.add-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5rem;
+}
+.repos-item > div{
+    display: flex;
+    align-items: center
+    ;
+}
+.repos-item > div > svg{
+    color: rgb(255, 217, 4);
+}
+.repos-item > div > span{
+    font-size: .8em;
+    margin-left: .2rem;
+}
+.repos-item h5{
+    margin-top: .5rem;
+    text-align: left;
+}
+#addItem{
+    border: none;
+    background-color: #88F28F;
+    padding: 0.3rem 0.2rem;
+    font-size: 1rem;
+    
+    border-radius: .3rem;
+    cursor: pointer;
+    color: #000000;
+}
+#addItem:active{
+    opacity: .9;
+}
+#remove{
+    color: red;
+    background-color: transparent;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+}
+#remove:active{
+    opacity: .7;
+}
